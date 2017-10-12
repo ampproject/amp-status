@@ -1,0 +1,25 @@
+---
+layout: default
+title: Status
+---
+<div class="container sm">
+  <div class="content">
+    <h1 class="title">AMP Status</h1>
+    <p>
+      <strong>Current status:</strong>
+      {% if site.active_incident %}
+      <span class="error-text">there is an ongoing incident</span>
+      {% else %}
+      <span class="success-text">no known incidents</span>
+      {% endif %}
+    </p>
+    <section class="post-list">
+      {% for post in site.posts %}
+      <div class="post-item">
+        <h4{% if forloop.first and site.active_incident %} class="error-text"{% endif %}><strong>{{ post.date | date_to_string }}</strong> | {{ post.title }}</h4>
+        <p class="post-excerpt small">{{ post.content }}</p>
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+</div>

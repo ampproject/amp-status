@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+  <title>{{ page.title }} – AMP</title>
+  <link rel="shortcut icon" href="/static/img/amp_favicon.png">
+  <link rel="canonical" href="https://status.ampproject.org/">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+  <style>{% include style.css %}</style>
+</head>
+<body>
+<header class="header fixed">
+  <div class="container">
+    <div class="nav-container">
+      <div class="left-nav alt">
+        <a href="https://www.ampproject.org/" class="tab header-title"><span></span></a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+  {{ content }}
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="twelve columns footer-icons">
+          <a href="//twitter.com/amphtml">
+            <div class="footer-image twitter"></div>
+          </a>
+          <a href="//amphtml.wordpress.com/">
+            <div class="footer-image wordpress"></div>
+          </a>
+          <a href="//youtube.com/TheAMPProject">
+            <div class="footer-image youtube"></div>
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="twelve columns footer-icons">
+          <a class="footer-privacy" href="https://www.google.com/intl/en/policies/privacy/">Privacy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

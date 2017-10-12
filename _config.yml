@@ -1,0 +1,8 @@
+name: AMP Status
+markdown: kramdown
+sass:
+  style: compressed
+
+# Set the active_incident to true when an accident is ongoing. This will change the status text and highlight the top
+# incident in the list.
+active_incident: false
