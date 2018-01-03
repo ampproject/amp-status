@@ -7,7 +7,9 @@ are immediately and automatically reflected in [status.ampproject.org](https://s
 How to update
 -------------
 
-For new incidents, create a new file in the `_posts` directory. See `_posts/_1999-12-31-example.md` for instructions.
+For new incidents, create a new file in the `_posts` directory by creating a copy of `_posts/_1999-12-31-example.md`
+(remove the underscore _ before the year) and modifying the content. See further instructions inside this example file.
+
 For existing incidents, edit the existing incident file.
 
 Set the `active_incident` field in `_config.yml` to `true` to denote an ongoing incident. Remember to set it back to
