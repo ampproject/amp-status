@@ -33,7 +33,7 @@ are immediately and automatically reflected in [status.ampproject.org](https://s
 
 * Open the browser (`http://localhost:4000/` by default) to review your changes.
 
-* Commit and push the changes: `git commit -am "Short commit description" && pit push`
+* Commit and push the changes: `git commit -am "Short commit description" && git push`
 
 * Refresh `http://status.ampproject.org/`. Your update should appear within 30 seconds
 
